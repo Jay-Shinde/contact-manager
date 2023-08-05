@@ -1,0 +1,38 @@
+.card-container{
+    height: 70px;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(254, 247, 236);
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+   .content{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+   }
+  .card-name{
+    height: 40%;
+    font-size: large;
+    display: flex;
+    align-items: center;
+  }
+  .card-body{
+    font-size: medium;
+  }
+  
+  .card-logo{
+    line-height: 70px;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: all ease 0.5s;
+  }
+  
+  .card-logo:hover{
+    cursor: pointer;
+    font-size: 25px;
+  }

@@ -1,0 +1,19 @@
+.navbar{
+    /* border: solid red; */
+    top: 0;
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgb(99, 94, 94);
+}
+
+.navbar p{
+    font-size: 30px;
+}
+
+
